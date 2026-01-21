@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>设计师作品集</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Designer Portfolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#portfolio">作品集</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title"><span class="highlight">视觉设计作品集</span></h1>
+                <p class="hero-subtitle">无限进步，创造有意义的设计</p>
+                <a href="#portfolio" class="btn btn-primary">查看我的作品</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是一名专注于视觉设计的创意设计师，拥有5年的设计经验。我擅长通过色彩、排版和视觉元素创造出引人入胜的设计作品。</p>
+                    <p>我的设计理念是：视觉设计是沟通的艺术，通过视觉语言传递情感和信息，创造出既美观又有深度的设计作品。</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <strong>姓名：</strong>
+                            <span>Anthony</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>经验：</strong>
+                            <span>5年</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>邮箱：</strong>
+                            <span>1091765510@qq.com</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>电话：</strong>
+                            <span>180-7289-5337</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="images/设计头像.jpg" alt="Anthony设计师头像">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品集 -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">我的作品</h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="ui">海报设计</button>
+                <button class="filter-btn" data-filter="ux">字体设计</button>
+                <button class="filter-btn" data-filter="branding">ID设计</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- 作品1 -->
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="images/poster-1.jpg" alt="创意海报作品">
+                        <div class="portfolio-overlay">
+                            <h3>创意海报设计</h3>
+                            <p>为艺术展览设计的视觉冲击力强的海报</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 作品2 -->
+                <div class="portfolio-item" data-category="ux">
+                    <div class="portfolio-image">
+                        <img src="images/front-1.jpg" alt="字体设计">
+                        <div class="portfolio-overlay">
+                            <h3>字体设计</h3>
+                            <p>为品牌定制的独特字体设计</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 作品3 -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="images/ID-1.jpg" alt="ID设计">
+                        <div class="portfolio-overlay">
+                            <h3>ID设计</h3>
+                            <p>产品包装和标识设计</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 作品4 -->
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="images/poster-2.jpg" alt="插画设计">
+                        <div class="portfolio-overlay">
+                            <h3>插画设计</h3>
+                            <p>为儿童书籍创作的插画作品</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 作品5 -->
+                <div class="portfolio-item" data-category="ux">
+                    <div class="portfolio-image">
+                        <img src="images/front-2.jpg" alt="视觉识别系统">
+                        <div class="portfolio-overlay">
+                            <h3>视觉识别系统</h3>
+                            <p>为企业设计的完整视觉识别系统</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 作品6 -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="images/ID-2.jpg" alt="数字插画">
+                        <div class="portfolio-overlay">
+                            <h3>数字插画</h3>
+                            <p>为数字媒体创作的插画作品</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 海报设计作品7 -->
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="images/poster-3.jpg" alt="音乐会海报">
+                        <div class="portfolio-overlay">
+                            <h3>音乐会海报</h3>
+                            <p>为音乐 festival 设计的创意海报</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 海报设计作品8 -->
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="images/poster-4.jpg" alt="电影节海报">
+                        <div class="portfolio-overlay">
+                            <h3>电影节海报</h3>
+                            <p>为国际电影节设计的宣传海报</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 海报设计作品9 -->
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="images/poster-5.jpg" alt="展览海报">
+                        <div class="portfolio-overlay">
+                            <h3>展览海报</h3>
+                            <p>为艺术展览设计的视觉海报</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 海报设计作品10 -->
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="images/poster-6.jpg" alt="产品海报">
+                        <div class="portfolio-overlay">
+                            <h3>产品海报</h3>
+                            <p>为新产品发布设计的宣传海报</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 海报设计作品11 -->
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="images/poster-7.jpg" alt="活动海报">
+                        <div class="portfolio-overlay">
+                            <h3>活动海报</h3>
+                            <p>为公益活动设计的宣传海报</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 海报设计作品12 -->
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="images/poster-8.jpg" alt="文化海报">
+                        <div class="portfolio-overlay">
+                            <h3>文化海报</h3>
+                            <p>为文化节设计的主题海报</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 海报设计作品13 -->
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-image">
+                        <img src="images/poster-9.jpg" alt="教育海报">
+                        <div class="portfolio-overlay">
+                            <h3>教育海报</h3>
+                            <p>为教育机构设计的宣传海报</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 字体设计作品7 -->
+                <div class="portfolio-item" data-category="ux">
+                    <div class="portfolio-image">
+                        <img src="images/front-3.png" alt="标题字体设计">
+                        <div class="portfolio-overlay">
+                            <h3>标题字体设计</h3>
+                            <p>为杂志设计的标题字体</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 字体设计作品8 -->
+                <div class="portfolio-item" data-category="ux">
+                    <div class="portfolio-image">
+                        <img src="images/front-4.jpg" alt="品牌字体设计">
+                        <div class="portfolio-overlay">
+                            <h3>品牌字体设计</h3>
+                            <p>为企业品牌设计的专用字体</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 字体设计作品9 -->
+                <div class="portfolio-item" data-category="ux">
+                    <div class="portfolio-image">
+                        <img src="images/front-5.png" alt="手写字体设计">
+                        <div class="portfolio-overlay">
+                            <h3>手写字体设计</h3>
+                            <p>具有手写风格的创意字体</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 字体设计作品10 -->
+                <div class="portfolio-item" data-category="ux">
+                    <div class="portfolio-image">
+                        <img src="images/front-6.jpg" alt="装饰字体设计">
+                        <div class="portfolio-overlay">
+                            <h3>装饰字体设计</h3>
+                            <p>用于装饰用途的艺术字体</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 字体设计作品11 -->
+                <div class="portfolio-item" data-category="ux">
+                    <div class="portfolio-image">
+                        <img src="images/front-7.jpg" alt="图标字体设计">
+                        <div class="portfolio-overlay">
+                            <h3>图标字体设计</h3>
+                            <p>包含图标的矢量字体</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 字体设计作品12 -->
+                <div class="portfolio-item" data-category="ux">
+                    <div class="portfolio-image">
+                        <img src="images/front-8.jpg" alt="多语言字体设计">
+                        <div class="portfolio-overlay">
+                            <h3>多语言字体设计</h3>
+                            <p>支持多种语言的字体设计</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 字体设计作品13 -->
+                <div class="portfolio-item" data-category="ux">
+                    <div class="portfolio-image">
+                        <img src="images/front-9.jpg" alt="像素字体设计">
+                        <div class="portfolio-overlay">
+                            <h3>像素字体设计</h3>
+                            <p>为游戏设计的像素风格字体</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ID设计作品7 -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="images/ID-3.png" alt="包装设计">
+                        <div class="portfolio-overlay">
+                            <h3>包装设计</h3>
+                            <p>为食品产品设计的包装</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ID设计作品8 -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="images/ID-4.png" alt="产品标识设计">
+                        <div class="portfolio-overlay">
+                            <h3>产品标识设计</h3>
+                            <p>为电子产品设计的标识</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ID设计作品9 -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="images/ID-5.png" alt="礼品包装设计">
+                        <div class="portfolio-overlay">
+                            <h3>礼品包装设计</h3>
+                            <p>为高端礼品设计的包装</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ID设计作品10 -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="images/ID-6.png" alt="化妆品包装设计">
+                        <div class="portfolio-overlay">
+                            <h3>化妆品包装设计</h3>
+                            <p>为化妆品品牌设计的包装</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ID设计作品11 -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="images/ID-7.jpg" alt="饮料包装设计">
+                        <div class="portfolio-overlay">
+                            <h3>饮料包装设计</h3>
+                            <p>为饮料产品设计的包装</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ID设计作品12 -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="images/ID-8.png" alt="药品包装设计">
+                        <div class="portfolio-overlay">
+                            <h3>药品包装设计</h3>
+                            <p>为药品设计的安全包装</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ID设计作品13 -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <img src="images/ID-9.png" alt="电子产品包装设计">
+                        <div class="portfolio-overlay">
+                            <h3>电子产品包装设计</h3>
+                            <p>为电子产品设计的精美包装</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">我的技能</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>海报设计</h3>
+                    <p>创意海报和宣传物料设计</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                    </div>
+                    <h3>字体设计</h3>
+                    <p>品牌定制字体和排版设计</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                            <path d="M2 17l10 5 10-5"></path>
+                            <path d="M2 12l10 5 10-5"></path>
+                        </svg>
+                    </div>
+                    <h3>ID设计</h3>
+                    <p>产品包装和标识设计</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                            <polyline points="2 17 12 22 22 17"></polyline>
+                            <polyline points="2 12 12 17 22 12"></polyline>
+                        </svg>
+                    </div>
+                    <h3>插画设计</h3>
+                    <p>数字插画和手绘创作</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-text">
+                            <strong>邮箱</strong>
+                            <p>1091765510@qq.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                        </div>
+                        <div class="contact-text">
+                            <strong>电话</strong>
+                            <p>180-7289-5337</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="contact-text">
+                            <strong>地址</strong>
+                            <p>杭州市西湖区</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="您的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="您的邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="您的电话">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="您的留言" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 设计师作品集. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
